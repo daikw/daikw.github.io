@@ -1,9 +1,16 @@
 baseURL = "http://daikw.github.io/"
 languageCode = "en-us"
-title = "daikw.net"
-theme = "hyde-hyde"
+title = "daikw as a yak-shaver"
+theme = "hyde"
 
-[params.social]
-  twitter = "daik_"
-  linkedin = "daiki-watanabe-578761b6"
+[params]
+  description = " "
+  themeColor = "theme-base-0c"
+  layoutReverse = true
+
+[Menus]
+  main = [
+    { name = "Bio", url = "/bio" },
+    { name = "Posts", url = "/posts" },
+  ]
 
