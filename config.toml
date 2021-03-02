@@ -1,5 +1,9 @@
-baseURL = "http://example.org/"
+baseURL = "http://daikw.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "daikw.net"
 theme = "hyde-hyde"
+
+[params.social]
+  twitter = "daik_"
+  linkedin = "daiki-watanabe-578761b6"
 
