@@ -1,4 +1,4 @@
-baseURL = "http://daikw.github.io/"
+baseURL = "https://daikw.github.io/"
 languageCode = "en-us"
 title = "daikw as a yak-shaver"
 theme = "almeida-cv"
