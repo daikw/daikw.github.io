@@ -1,3 +1,6 @@
 [submodule "themes/hyde"]
 	path = themes/hyde
 	url = git@github.com:spf13/hyde.git
+[submodule "themes/almeida-cv"]
+	path = themes/almeida-cv
+	url = git@github.com:ineesalmeida/almeida-cv.git
