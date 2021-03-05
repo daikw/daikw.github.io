@@ -3,115 +3,115 @@ BasicInfo:
   LastName: Watanabe
   Photo: img/avatar.jpg
   Contacts:
-    - Icon: fas fa-phone
-      Info: +44 123 456 789
     - Icon: fas fa-envelope
-      Info: contact@ines-almeida.com
+      Info: daikw_at_yak-shaver.com
     - Icon: fas fa-globe
-      Info: ines-almeida.com
+      Info: daikw.github.io
     - Icon: fas fa-map-marker-alt
-      Info: Portugal
+      Info: Japan
 
-Profile: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Profile:
+  I'm a software engineer based in Tokyo with 3 years of experience in the software industry.
+  My focus area for the past few years has been backend development with Ruby or Golang,
+  although I've been keeping a full-stack perspective by working on DevOps with embedded engineering team.
+  I like open-minded and scientific discussions, and I really love to develop software & collaborate with teammates.
 
 Experience:
-  - Employer: Super Cool Company
-    Place: Oxford, UK
+  - Employer: Photosynth. Inc.
+    Place: Tamachi, Tokyo
     Positions:
-      - Title: Software Engineer
+      - Title: Embedded & DevOps Engineer
+        Date: Nov 2020 - Present
+        Details:
+          - Responsible for developing gateways for IoT services (Akerun).
+          - Eliminated development bottlenecks by incorporating web development processes, and reduced the firmware lead time to less than half.
+          - Setup & maintain CI/CD with self-hosted gitlab server & hardware computes, and accelerated teammates' development.
+        Badges: [Gitlab, Zephyr, Node, C, Docker, Raspberry-Pi, Arduino, nrf52]
+      - Title: Development leader
+        Date: Apr 2020 - Oct 2020
+        Details:
+          - Lead the development team for the modernization of IoT service backend & frontend.
+          - Implemented servant leadership into the team. Organized non-development factors that had become bottlenecks and led the team to a quantitative goal with DevOps in mind.
+          - Led agile-like development. Gained control over uncertainty by objectively measuring and visualizing development speed.
+          - Halved the lead time from requirement definition to release by adopting modern CI environment.
+        Badges: [Github, Nuxtjs, Ruby-on-Rails, AWS]
+      - Title: DevOps Engineer
+        Date: Apr 2019 - Mar 2020
+        Details:
+          - One of the 5 mainteners of the IoT service, which had become difficult to see the whole picture in the rapidly changing environment.
+        Badges: [Github, Ruby-on-Rails, AWS]
+  - Employer: Sleeek Inc.
+    Place: Shinagawa, Tokyo
+    Positions:
+      - Title: Serverside Engineer
         Date: Jan 2020 - Present
         Details:
-          - Arcu vitae elementum curabitur vitae nunc sed velit
-          - Viverra aliquet eget sit amet tellus cras adipiscing
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ['Python', 'Django', 'OOP', 'Javascript', 'HTML', 'CSS', 'Agile']
-      - Title: Software Tester
-        Date: Mar 2019 - Jan 2020
-        Details:
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ['Python', 'BDD', 'Selenium', 'OOP', 'Agile']
-  - Employer: Another super cool company
-    Place: Lisbon, PT
+          - Backend development for the web service `Sleeek`, which integrates information from various VCS and project management tools.
+          - I was in charge of the component to change the VCS-derived data into an intermediate representation and give them a unified interface.
+          - Conducted technology selection, F/S, and full implementation while meeting with the tech lead once every two weeks.
+        Badges: [Github, Golang, Docker, Docker-compose]
+  - Employer: Donuts. Inc.
+    Place: Shinjuku, Tokyo
     Positions:
-      - Title: Flow Cytometry Resource Specialist
+      - Title: DevOps Engineer
         Date: Jan 2018 - Mar 2019
         Details:
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
-  - Employer: Institute of Neural Engineering
-    Place: Graz, AT
-    Positions:
-      - Title: Master's Thesis Research Intern
-        Date: Oct 2016 - Jun 2017
-        Details:
-          - Arcu vitae elementum curabitur vitae nunc sed velit
-          - Viverra aliquet eget sit amet tellus cras adipiscing
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-        Badges: ['Python', 'MATLAB', 'Data Processing', 'Paradigm Design']
+          - Focused on various initiatives to make development smoother, such as building a CI/CD environment and improving processes for requirements coordination.
+          - Make it possible to deploy without being a developer.
+        Badges: [Github, AngularJS, Django, Google AppEngine]
 
 Education:
-  - Course: BSc & MSc in Biomedical Engineering and Biophysics
-    Place: University of Lisbon
-    Date: Sep 2012 - Nov 2017
-    Details: Specialised in data analysis
+  - Course: BSc & MSc in Applied Chemistry
+    Place: Keio University, School of Integrated Design Engineering, Center for Material Design Science
+    Date: Apr 2012 - Mar 2018
+    Details: Specialised in IoT products of chemical sensors
 
 Skills:
-  - Family: Programming
+  - Family: <a href="https://www.notion.so/e4d9aec07fa946a78dc915ea9a1a3f00?v=12c1853a1d05426184c539a6b24efae1">Languages<a>
     Items:
+      - Ruby
+      - JavaScript
+      - Golang
       - Python
-      - HTML (including Jinja)
-      - Javascript
-      - CSS
-      - SASS
       - SQL
-      - C#
-      - Bash
-      - MATLAB
   - Family: Frameworks
     Items:
+      - Ruby-on-Rails
       - Django
       - Flask
-      - Hugo
-      - React
-  - Family: Developer Tools
+      - Nuxtjs
+  - Family: Databases
     Items:
-      - Git
+      - MySQL
+      - Redis
+      - MongoDB
+  - Family: Computes
+    Items:
       - Docker
-      - Jenkins
       - AWS
-  - Family: Misc
+      - Raspberry-Pi
+      - Arduino
+      - CircleCI
+  - Family: Others
     Items:
-      - Adobe Tools
-      - LaTeX
+      - Kali
+      - Fish
 
 Languages:
-  - Name: Portuguese
+  - Name: Japanese
     Level: Native
   - Name: English
-    Level: C2
-  - Name: Spanish
-    Level: B1
-  - Name: German
-    Level: B1
+    Level: B1 (equiv)
 
 Diplomas:
-  - ISTQB Tester Certification (2019)
-  - English Cambridge CAE (2009)
+  - Applied Information Technology Engineer Examination (2018)
+  - Class A Hazardous Material Engineer (2019)
+  - 2nd class Quolified Certified Electrician (2019)
+  - Machine Learning - Coursera (2019)
+  - AWS Certified Solutions Architect – Associate (2021)
 
 Interests:
-  - Bouldering
-  - Cooking
-  - Windsurfing
-  - Bossa Nova
-  - Design
   - Languages
-
+  - Science
+  - Electrical work
+  - Billiard
