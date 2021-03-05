@@ -30,10 +30,10 @@ Experience:
       - Title: Development leader
         Date: Apr 2020 - Oct 2020
         Details:
-          - Lead the development team for the modernization of IoT service backend & frontend.
-          - Implemented servant leadership into the team. Organized non-development factors that had become bottlenecks and led the team to a quantitative goal with DevOps in mind.
-          - Led agile-like development. Gained control over uncertainty by objectively measuring and visualizing development speed.
-          - Halved the lead time from requirement definition to release by adopting modern CI environment.
+          - I took leadership of the development team for the IoT service modernization project (both backend & frontend).
+          - By adopting servant leadership style, we organized non-development factors that had become bottlenecks and led the team to a quantitative goal with DevOps in mind.
+          - By adopting agile-like development, we gained control over uncertainty by objectively measuring and visualizing development speed.
+          - By adopting modern CI environment, we halved the lead time from requirement definition to release.
         Badges: [Github, Nuxtjs, Ruby-on-Rails, AWS]
       - Title: DevOps Engineer
         Date: Apr 2019 - Mar 2020
@@ -57,14 +57,14 @@ Experience:
         Date: Jan 2018 - Mar 2019
         Details:
           - Focused on various initiatives to make development smoother, such as building a CI/CD environment and improving processes for requirements coordination.
-          - Make it possible to deploy without being a developer.
+          - Make it possible to deploy without being a developer, and cut-off the operation cost.
         Badges: [Github, AngularJS, Django, Google AppEngine]
 
 Education:
   - Course: BSc & MSc in Applied Chemistry
     Place: Keio University, School of Integrated Design Engineering, Center for Material Design Science
     Date: Apr 2012 - Mar 2018
-    Details: Specialised in IoT products of chemical sensors
+    Details: Specialised in mixin products of IoT and chemical-sensors.
 
 Skills:
   - Family: <a href="https://www.notion.so/e4d9aec07fa946a78dc915ea9a1a3f00?v=12c1853a1d05426184c539a6b24efae1">Languages<a>
@@ -111,7 +111,8 @@ Diplomas:
   - AWS Certified Solutions Architect – Associate (2021)
 
 Interests:
-  - Languages
-  - Science
-  - Electrical work
+  - Programming
+  - Informatics
   - Billiard
+  - Electrical
+  - 3D printing
