@@ -6,13 +6,13 @@ BasicInfo:
     - Icon: fas fa-envelope
       Info: daikw_at_yak-shaver.com
     - Icon: fas fa-globe
-      Info: daikw.github.io
+      Info: <a href="https://daikw.github.io">daikw.github.io</a>
     - Icon: fas fa-map-marker-alt
-      Info: Japan
+      Info: Tokyo, Japan
 
 Profile:
-  I'm a software engineer based in Tokyo with 3 years of experience in the software industry.
-  My focus area for the past few years has been backend development with Ruby or Golang,
+  I'm a software engineer based in Tokyo with 5+ years of experience in the software industry.
+  My focus area for the first few years in my experience was web applications,
   although I've been keeping a full-stack perspective by working on DevOps with embedded engineering team.
   I like open-minded and scientific discussions, and I really love to develop software & collaborate with teammates.
 
@@ -26,39 +26,31 @@ Experience:
           - Responsible for developing gateways for IoT services (Akerun).
           - Eliminated development bottlenecks by incorporating web development processes, and reduced the firmware lead time to less than half.
           - Setup & maintain CI/CD with self-hosted gitlab server & hardware computes, and accelerated teammates' development.
-        Badges: [Gitlab, Zephyr, Node, C, Docker, Raspberry-Pi, Arduino, nrf52]
+        Badges: [Gitlab, Zephyr, Node, C, Docker, Raspberry-Pi, Arduino, nRF52]
+      - Title: Embedded Engineer
+        Date: Apr 2023 - Jun 2023
+        Details:
+          - Responsible for researching what kind of IoT devices are suitable and feasible to develop.
+          - Researched and evaluated some modern IoT technologies.
+          - Developed some prototypes of a new IoT device with modern technologies, like nRF52, ESP32, and so on.
+        Badges: [Gitlab, Zephyr, Node, C, Docker, Raspberry-Pi, Arduino, nRF52]
       - Title: Development leader
-        Date: Apr 2020 - Oct 2020
+        Date: Oct 2022 - Mar 2023
         Details:
-          - I took leadership of the development team for the IoT service modernization project (both backend & frontend).
+          - I took leadership of the development team for the new IoT service project, which is already behind schedule.
+          - There are few engineers who have enough experiences, so I have to lead the team with a full-stack perspective.
           - By adopting servant leadership style, we organized non-development factors that had become bottlenecks and led the team to a quantitative goal with DevOps in mind.
-          - By adopting agile-like development, we gained control over uncertainty by objectively measuring and visualizing development speed.
-          - By adopting modern CI environment, we halved the lead time from requirement definition to release.
-        Badges: [Github, Nuxtjs, Ruby-on-Rails, AWS]
-      - Title: DevOps Engineer
-        Date: Apr 2019 - Mar 2020
-        Details:
-          - One of the 5 mainteners of the IoT service, which had become difficult to see the whole picture in the rapidly changing environment.
-        Badges: [Github, Ruby-on-Rails, AWS]
-  - Employer: Sleeek Inc.
-    Place: Shinagawa, Tokyo
+        Badges: [Github, React, Go, Terraform, AWS]
+  - Employer: Karakuri Inc.
+    Place: Tsukiji, Tokyo
     Positions:
       - Title: Serverside Engineer
         Date: Jan 2020 - Present
         Details:
-          - Backend development for the web service `Sleeek`, which integrates information from various VCS and project management tools.
-          - I was in charge of the component to change the VCS-derived data into an intermediate representation and give them a unified interface.
-          - Conducted technology selection, F/S, and full implementation while meeting with the tech lead once every two weeks.
-        Badges: [Github, Golang, Docker, Docker-compose]
-  - Employer: Donuts. Inc.
-    Place: Shinjuku, Tokyo
-    Positions:
-      - Title: DevOps Engineer
-        Date: Jan 2018 - Mar 2019
-        Details:
-          - Focused on various initiatives to make development smoother, such as building a CI/CD environment and improving processes for requirements coordination.
-          - Make it possible to deploy without being a developer, and cut-off the operation cost.
-        Badges: [Github, AngularJS, Django, Google AppEngine]
+          - Backend development for the web service `MDR-Closed`, which supports data analysis for material researchers.
+          - There are few engineers who have experience especially in IaC and GCP, so I have to maintain the infrastructure.
+          - I'm also responsible for the development of both frontend and backend, and I have improved the development efficiency by introducing CI/CD.
+        Badges: [Github, nx, Python, Ansible, GKE, GCP]
 
 Education:
   - Course: BSc & MSc in Applied Chemistry
@@ -71,27 +63,29 @@ Skills:
     Items:
       - Ruby
       - JavaScript
-      - Golang
+      - Go
       - Python
       - SQL
   - Family: Frameworks
     Items:
       - Ruby-on-Rails
-      - Django
-      - Flask
+      - Echo
       - Nuxtjs
   - Family: Databases
     Items:
       - MySQL
       - Redis
       - MongoDB
+  - Family: Clouds
+    Items:
+      - AWS
+      - GCP
   - Family: Computes
     Items:
-      - Docker
-      - AWS
       - Raspberry-Pi
       - Arduino
-      - CircleCI
+      - nRF52
+      - ESP32
   - Family: Others
     Items:
       - Kali
@@ -109,10 +103,11 @@ Diplomas:
   - 2nd class Quolified Certified Electrician (2019)
   - Machine Learning - Coursera (2019)
   - AWS Certified Solutions Architect – Associate (2021)
+  - Certified Ethical Hacker
 
 Interests:
   - Programming
   - Informatics
+  - Science
   - Billiard
-  - Electrical
-  - 3D printing
+  - Volleyball
